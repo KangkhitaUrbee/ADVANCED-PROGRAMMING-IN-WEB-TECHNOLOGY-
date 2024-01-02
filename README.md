@@ -1,67 +1,38 @@
-# ADVANCED-PROGRAMMING-IN-WEB-TECHNOLOGY-
-Retail Book Store
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Project Description:
-An online marketplace for books called Retail Book Store brings together Customers and sellers from around the globe. This online library delivers a smooth experience for both Customers and sellers because of its user-friendly layout and cutting-edge features. A built-in messaging system makes it simple for sellers to offer their books for sale with all the necessary details, manage their listings, collect payments, and get in touch with possible customers. Using a variety of search criteria, customers may find books, explore listings by category, price, location, and condition, add goods to their shopping carts, and complete a secure checkout. To maintain a secure and equitable environment for all users, administrators, and moderators may oversee and watch over the platform's content, users, transactions, and policies. 
+## Getting Started
 
-•	Problem Statement: 
-The absence of a trustworthy and user-friendly marketplace for buying and selling used books is the issue that the library seeks to address. Many people have libraries of books they no longer use, while others seek inexpensive ways to purchase out-of-print or hard-to-find literature. Existing solutions, however, are sometimes difficult to use, rife with dishonest vendors, and lacking in details about the books being offered.
-•	Significance of Solving the Problem:
-This issue is resolved by this online store, which offers a safe, dependable, and straightforward platform that links Customers and sellers of used books all over the world. The platform provides sophisticated features that make it simpler for sellers to display their books and for Customers to locate what they're searching for, such as comprehensive book information, various payment choices, a message system, and analytics tools. The platform incorporates advanced features to simplify the book-selling process, including comprehensive book information, various payment options, a messaging system, and analytics tools. The "Local Retail Book Store" also promotes sustainability by encouraging the exchange of used books, reducing waste, and extending the lifespan of these literary treasures. 
+First, run the development server:
 
-Feature Analysis:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-1.	User Category:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-There are 2-types of Users here. They are:
-•	Admin
-•	Seller
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-2.	Feature List:
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-In this project the “Admin” has the following features:
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-•	Signup: Allow new administrators to register by providing necessary details.
-•	Login: Provide a secure login mechanism for administrators to access the admin dashboard.
-•	Add Admin: Can add new administrators to the system.
-•	Search Admin: Ability to search and locate specific administrators based on criteria.
-•	Admin Show: Display a list of all administrators with relevant details.
-•	Modify Admin: Edit and update information for existing administrators.
-•	Delete Admin: Option to remove administrators from the system.
-•	Add Seller: Capability to add new sellers to the system.
-•	Get Seller Details: Retrieve detailed information about all sellers and customers.
-•	Edit Seller Details: Ability to modify information for any seller or customer.
-•	Delete Seller Details: Option to remove any seller or customer from the system.
-•	Add Blog: can create and publish blog posts on the admin dashboard.
-•	Add Product: Capability to add new products to the system.
-•	Delete Product: Functionality to remove products from the system.
-•	Modify Product: Edit and update information for existing products.
-•	Search Product: Ability to search for products based on various parameters.
-•	Show Product: Display detailed information about a specific product.
-•	Show Annual Distribution: Visualization or report showcasing the annual distribution of products.
-•	Business Performance: Monitoring and reporting tools to analyze and display business performance metrics.
-•	Logout: Securely log out from the admin dashboard.
+## Learn More
 
-In this project the “Seller” has the following features:
-•	Add books for sale: Allow sellers to add books for sale with details such as title, author, ISBN, condition, price, and location.
-•	View their respected listings.
-•	Edit their Books information’s.
-•	Delete their Book information’s.
-•	View feedback from Customers
-•	Feedback: Allow Seller to leave feedback for Admin.
-•	Update Profile: Allow sellers to manage their account settings, including profile picture, contact information, and notifications.
-•	Login: Every Seller can login to their accounts
-•	Logout: Every Seller can logout from their accounts
-•	Signup: Every Seller can create their accounts
-•	View All Orders
-•	View Single Order
-•	Update Order Status
-•	Calculate Total Income
-•	Add Address
-•	Update Address
-•	Delete Address
-•	View Address
-•	Update Password
-•	Upload Profile Picture
-•	View Single Book information’s
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
