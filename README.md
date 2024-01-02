@@ -29,6 +29,8 @@ In this project the “Admin” has the following features:
 •	Show Annual Distribution: Visualization or report showcasing the annual distribution of products. 
 •	Business Performance: Monitoring and reporting tools to analyze and display business performance metrics. 
 •	Logout: Securely log out from the admin dashboard. 
+
+
 In this project the “Seller” has the following features: 
 •	Add books for sale: Allow sellers to add books for sale with details such as title, author, ISBN, condition, price, and location. 
 •	View their respected listings. 
