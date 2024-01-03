@@ -4,10 +4,11 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MailerModule } from '@nestjs-modules/mailer';
 import { AdminModule } from './admin/admin.module';
+import { SellerModule } from './seller/seller.module';
 
 @Module({
   imports: [
-    AdminModule,
+    AdminModule,SellerModule
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
